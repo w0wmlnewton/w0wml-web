@@ -5,12 +5,12 @@
 # See: https://gohugo.io/content-management/multilingual/
 # =============================================================================
 
-baseURL = 'https://example.com/'
+baseURL = 'https://www.w0wml.org/'
 theme = "mana"
 defaultContentLanguage = "en"
 
 [pagination]
-  pageSize = 10
+  pageSize = 5
 
 [markup]
   [markup.tableOfContents]
@@ -41,17 +41,17 @@ defaultContentLanguage = "en"
 [params]
   enableIntegrity = false
   relatedPostsCount = 3
-  description = "Newton Amaateur Radio Assocation, Inc | W0WML"
+  description = "Newton Amaateur Radio Assocation. Connecting Amaateur Radio Operators in Jasper and Poweshiek Counties!"
   author = "Your Name"
-  heroTitleLine1 = "Newton Amaateur Radio Assocation, Inc | W0WML"
-  heroTitleLine2 = "Newton Amaateur Radio Assocation, Inc | W0WML"
-  footerText = "Built with Hugo, a little bit of luck and no sad hams"
+  heroTitleLine1 = "Newton Amatuer Radio Assocation, Inc"
+  heroTitleLine2 = ""
+  footerText = ""
 
   [params.social]
-    github = "https://github.com/yourusername"
-    linkedin = "https://www.linkedin.com/in/yourprofile"
-    twitter = "yourusername"
-    email = "your.email@example.com"
+    github = "https://github.com/w0wmlnewton"
+    linkedin = ""
+    twitter = ""
+    email = "info@w0wml.org"
 
   [params.buyMeACoffee]
     enabled = false
@@ -79,14 +79,14 @@ defaultContentLanguage = "en"
   languageDirection = "ltr"
   contentDir = "content/en"
   weight = 1
-  title = "Your Site Title"
+  title = " Newton Amatuer Radio Assocation | W0WML"
 
   [languages.en.params]
-    description = "Your site description"
-    heroTitleLine1 = "YOUR SITE NAME"
-    heroTitleLine2 = "YOUR TAGLINE"
+    description = "Newton Amaateur Radio Assocation. Connecting Amaateur Radio Operators in Jasper and Poweshiek Counties!"
+    heroTitleLine1 = "Newton Amatuer Radio Assocation, Inc"
+    heroTitleLine2 = ""
     custom404Message = "Sorry, the page you are looking for could not be found."
-    footerText = "Built with Hugo and Mana theme"
+    footerText = ""
 
   [[languages.en.menus.main]]
     name = "Home"
@@ -94,16 +94,6 @@ defaultContentLanguage = "en"
     weight = 10
 
   [[languages.en.menus.main]]
-    name = "Posts"
-    pageRef = "/posts"
-    weight = 20
-
-  [[languages.en.menus.main]]
-    name = "Tags"
-    pageRef = "/tags"
-    weight = 30
-
-  [[languages.en.menus.main]]
     name = "About"
-    url = "/about/"
-    weight = 40
+    url = "about"
+    weight = 20
