@@ -7,15 +7,4 @@ image: "/images/your-image.png"
 
 ## Who We Are
 
-Welcome to our site. We focus on building reliable systems, clean deployments, and operator‑proof workflows.
-
-## What We Do
-
-- Modular infrastructure  
-- Deterministic automation  
-- Radio systems engineering  
-- Field‑ready deployments  
-
-## Our Mission
-
-To create resilient, reproducible systems that anyone can operate confidently.
+Welcome to Newton Amatuer Radio Association. We are in the midst of a website update. Come back and visit us to see the updates!
